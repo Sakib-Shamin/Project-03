@@ -1,0 +1,530 @@
+/*
+Author: Sakib Shamin;
+Email: Sakibh.Shamin@gmail.com;
+Date Created: 11-16-2016;
+*/
+
+/*Global CSS*/
+
+@font-face
+{
+	src: url(../fonts/georgia.ttf),
+	     url(../fonts/georgia-italic.ttf),
+	     url(../fonts/georgia.eot),
+	     url(../fonts/georgia.eot);
+}
+
+body
+{
+	font-family: "Georgia", sans-sarif;
+	color: #444343;
+}
+
+p
+{
+	font-size: 11pt;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+li
+{
+	display: inline-block;
+}
+
+h5,
+li,
+input[type=text],
+textarea
+{
+	font-size: 13pt;
+}
+
+img
+{
+	max-height: 100%;
+}
+
+h1,
+img:not(li img)
+{
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.italic
+{
+	font-style: italic;
+}
+
+.normal
+{
+	font-weight: 400;
+}
+
+.social-media
+{
+	float: right;
+}
+
+.social-media li
+{
+	padding-right: 15px;
+}
+
+h4,
+input[type=button]
+{
+	font-size: 15pt;
+}
+
+.social
+{
+	padding-left: 5px;
+}
+
+.slash
+{
+	padding: 0px 10px;
+}
+
+.first-part h4,
+.first-part .social-media,
+.copyright
+{
+	margin-top: 40px;
+	margin-bottom: 0px;
+}
+
+img
+{
+	width: 100%;
+}
+
+.indicator
+{
+	background: url(../images/portfolio_large_control.png) no-repeat;
+	width: 35px;
+	height: 35px;
+	padding: 13px;
+	position: absolute;
+}
+
+/*First-Part*/
+
+.first-part
+{
+	background: url(../images/header_background.png) no-repeat;
+	background-size: cover;
+	padding-bottom: 215px;
+}
+
+/*First Part ends*/
+
+/*Second Part*/
+
+.second-part .indicator
+{
+	top: 50%;
+}
+
+.second-part .left-indicator
+{
+	left: 1%;
+}
+
+.second-part .right-indicator
+{
+	right: 1%;
+}
+
+.slider-top
+{
+	top: -200px;
+	margin-bottom: -180px;
+}
+
+.small-circle
+{
+	bottom: -40px;
+}
+
+.small-circle li
+{
+	background: #ddd;
+	border: none;
+}
+
+.small-circle .active
+{
+	background: url(../images/active_control.png);
+	background-size: cover;
+}
+
+h1,
+h2
+{
+	text-align: center;
+}
+
+h1
+{
+	font-size: 30pt;
+}
+
+h1:before
+{
+	content: open-quote;
+}
+
+h1:after
+{
+	content: close-quote;
+}
+
+h2
+{
+	font-size: 18pt;
+}
+
+h3
+{
+	font-size: 14pt;
+	padding-top: 50px;
+}
+
+.about:before
+{
+	content: url(../images/user_icon.png);
+	padding-right: 10px;
+}
+
+.skill:before
+{
+	content: url(../images/message.png);
+	padding-right: 10px;
+}
+
+.service:before
+{
+	content: url(../images/setting.png);
+	padding-right: 10px;
+}
+
+/*Second Part ends*/
+
+/*Third Part*/
+
+.third-part
+{
+	background: url(../images/portfolio_background.png) no-repeat;
+	background-size: cover;
+	padding-top: 50px;
+}
+
+.small-image
+{
+	margin-bottom: 46px;
+}
+
+.third-part .indicator
+{
+	bottom: 20%;
+}
+
+.third-part .left-indicator
+{
+	left: 4%;
+}
+
+.third-part .right-indicator
+{
+	right: 4%;
+}
+
+.captions,
+.captions p
+{
+	position: relative;
+}
+
+.captions
+{
+	background: url(../images/portfolio_large_bg.png) no-repeat;
+	background-size: cover;
+	padding: 15px 69px;
+	bottom: 106px;
+}
+
+.captions p
+{
+	color: #fff;
+}
+
+/*Third Part ends*/
+
+/*Forth Part*/
+
+input,
+textarea
+{
+	border: none;
+	margin-bottom: 20px;
+	border-radius: 3px;
+}
+
+input[type=text],
+textarea
+{
+	width: 100%;
+}
+
+input[type=text]
+{
+	padding: 18px 50px;
+}
+
+input[type=text]:nth-child(1)
+{
+	background: url(../images/feedback_user.png), url(../images/feedback_input_bg.png);
+	background-repeat: no-repeat;
+	background-size: auto, 100%;
+	background-origin: content-box, padding-box;
+	background-position: -25px, 0px 0px;
+}
+
+input[type=text]:nth-child(2)
+{
+	background: url(../images/feedback_message.png), url(../images/feedback_input_bg.png);
+	background-repeat: no-repeat;
+	background-size: auto, 100%;
+	background-origin: content-box, padding-box;
+	background-position: -25px, 0px 0px;
+}
+
+input[type=text]:nth-child(3)
+{
+	background: url(../images/globe.png), url(../images/feedback_input_bg.png);
+	background-repeat: no-repeat;
+	background-size: auto, 100%;
+	background-origin: content-box, padding-box;
+	background-position: -25px, 0px 0px;
+}
+
+textarea
+{
+	background: url(../images/feedback_message_bg.png) no-repeat;
+	background-size: 100%;
+	resize: none;
+}
+
+input[type=button]
+{
+	background: url(../images/submit_bg.png) no-repeat;
+	color: #878787;
+	font-size: 18pt;
+	padding: 10px 30px;
+}
+
+h5
+{
+	margin-top: 0px;
+}
+
+.forth-part
+{
+	padding-bottom: 50px;
+}
+
+.forth-part img
+{
+	width: auto;
+}
+
+.border
+{
+	background: #c7c7c7;
+	height: 1px;
+}
+
+/*Forth Part ends*/
+
+/*Fifth Part*/
+
+.copyright
+{
+	font-size: 7pt;
+}
+
+.fifth-part .social-media
+{
+	margin-top: -21px;
+}
+
+/*Fifth Part end*/
+
+@media (max-width: 767px)
+{
+	body
+	{
+		text-align: center;
+	}
+
+	.first-part
+	{
+		padding-bottom: 15px;
+	}
+
+	.social-media 
+	{
+		float: none;
+	}
+
+	.third-part
+	{
+		padding-bottom: 100px;
+	}
+
+	.captions
+	{
+		bottom: 87px;
+	}
+
+	.third-part .indicator
+	{
+		bottom: 7%;
+	}
+
+	input[type=text]
+	{
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.third-part
+	{
+		padding-bottom: 150px;
+	}
+
+	.third-part .indicator
+	{
+		bottom: 6%;
+	}
+
+	.captions
+	{
+		bottom: 87px;
+	}
+
+	input[type=text]
+	{
+		padding: 32px 50px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+	.first-part
+	{
+		padding-bottom: 323px;
+	}
+
+	.third-part
+	{
+		padding-bottom: 200px;
+	}
+
+	.copyright
+	{
+		font-size: 9pt;
+	}
+
+}
+
+@media (min-width: 1200px)
+{
+	p
+	{
+		font-size: 14pt;
+	}
+
+	h5,
+	li,
+	input[type=text],
+	textarea
+	{
+		font-size: 16pt;
+	}
+
+	h4,
+	input[type=button]
+	{
+		font-size: 18pt;
+	}
+
+	.first-part
+	{
+		padding-bottom: 430px;
+	}
+
+	.slider-top
+	{
+		top: -370px;
+		margin-bottom: -340px;
+	}
+
+	h1
+	{
+		font-size: 60pt;
+		margin: 10px -15px 0px;
+	}
+
+	h2
+	{
+		font-size: 24pt;
+	}
+
+	h3
+	{
+		font-size: 22pt;
+	}
+
+	.third-part
+	{
+		padding-bottom: 50px;
+	}
+
+	.captions
+	{
+		bottom: 124px;
+		padding: 15px 69px;
+	}
+
+	.forth-part h5,
+	.forth-part p:not(.italic)
+	{
+		margin-left: -90px;
+	}
+
+	.forth-part .italic + p
+	{
+		margin-left: 0px;
+	}
+
+	.copyright
+	{
+		font-size: 12pt;
+	}
+
+	.fifth-part .social-media
+	{
+		margin-top: -30px;
+	}
+}
+
